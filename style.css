@@ -1,0 +1,95 @@
+*{
+    font-family: 'Times New Roman';
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#name{
+    height:730px;
+    padding-top:300px;
+    padding-left: 100px;
+    text-align: left;
+    font-size: 50px;
+    font-family: 'Times New Roman';
+
+}
+#about{
+    background-color: #00cdac;
+    height:450px;
+    padding-top:50px;
+    text-align: center;
+    font-size: large;
+
+}
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        transform:  translateX(-100px) ;
+    }
+    to{
+        opacity:1;
+        transform:  translateX(0px) ;
+       }
+}
+#profile_img{
+    animation:appear 5s linear ;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+
+@keyframes appear1{
+    from{
+        opacity: 0;
+        transform:  translateX(100px) ;
+    }
+    to{
+        opacity:1;
+        transform:  translateX(0px) ;
+       }
+    }
+.about-wrapper__info {
+        animation:appear1 5s linear ;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.project-wrapper__text{
+        animation:appear 5s linear ;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+.project-wrapper__image{
+    animation:appear1 5s linear ;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+#skills{
+    background-color: #00cdac;
+    height:400px;
+}
+#Skills{
+    animation:appear 5s linear ;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+#certifications{
+    background-color: #00cdac;
+    height:400px;
+}
+#Certifications{
+    animation:appear1 5s linear ;
+    animation-timeline: view();
+    animation-range: entry 0 cover 40%;
+}
+#contact{
+    text-align: center;
+    margin-top: 20px;
+    height: 150px;
+}
+
+
+
+
+
